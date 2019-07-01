@@ -3,6 +3,6 @@ prepros-6.config
 *.iml
 node_modules/
 build/
-dist/**
+dist/*
 src/css/
 package-lock.json
