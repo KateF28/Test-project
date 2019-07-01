@@ -1,0 +1,13 @@
+@import "variables.scss";
+@import "mixin.scss";
+@import "components/components_mobile.scss";
+@import "sections/header_mobile.scss";
+@import "sections/main-section_mobile.scss";
+@import "sections/navbar_mobile.scss";
+@import "sections/content-section_mobile.scss";
+
+@media only screen and (max-width: $mobile) {
+.container {
+    max-width: $mobile;
+}
+}

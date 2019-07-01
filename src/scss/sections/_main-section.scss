@@ -1,0 +1,9 @@
+@import "../variables.scss";
+@import "../mixin.scss";
+
+.main-section {
+	background-color: #E5E5E5;
+	@include flex-between;
+	padding: 0 68px 0 16px;
+	width: 100%;
+}

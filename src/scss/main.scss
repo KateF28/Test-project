@@ -1,0 +1,14 @@
+@import "variables.scss";
+@import "mixin.scss";
+@import "components/components.scss";
+@import "sections/sections.scss";
+
+body {
+	font-family: $main-font;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}

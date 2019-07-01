@@ -1,0 +1,13 @@
+@import "variables.scss";
+@import "mixin.scss";
+@import "components/components_tablet.scss";
+@import "sections/header_tablet.scss";
+@import "sections/main-section_tablet.scss";
+@import "sections/navbar_tablet.scss";
+@import "sections/content-section_tablet.scss";
+
+@media only screen and (max-width: $tablet) {
+.container {
+    max-width: $tablet;
+}
+}

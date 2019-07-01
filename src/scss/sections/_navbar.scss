@@ -1,0 +1,67 @@
+@import "../variables.scss";
+
+.navbar {
+    flex: 0 0 25%;
+    background-color: $bg-color-light;
+    align-self: stretch;
+    box-shadow: 8px 0px 16px rgba(0, 0, 0, 0.04);
+    padding: 60px 0 0 50px;
+    height: 100vh;
+    z-index: 2;
+
+    &__menu-item {
+        margin-bottom: 24px;
+    }
+
+    &__menu-link div {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    &__menu-link {
+        color: #000;
+    }
+
+    &__menu-link-active {
+        color: #109CF1;
+    }
+
+    &__menu-icon {
+        display: block;
+        fill: #000;
+    }
+
+    &__menu-icon-active {
+        fill: #109CF1;
+    }
+
+    &__menu-icon-active .navbar__menu-icon {
+        fill: #109CF1;
+    }
+
+    &__menu-link:hover {
+        color: #109CF1;
+    }
+
+    &__menu-link:active {
+        color: #109CF1;
+    }
+
+    &__menu-link:visited navbar__menu-icon {
+        fill: #C2CFE0;
+    }
+
+    &__menu-link:hover navbar__menu-icon {
+        fill: #109CF1;
+    }
+
+    &__menu-link:active navbar__menu-icon {
+        fill: #109CF1;
+    }
+
+    &__menu-item-text {
+        margin-left: 13px;
+        display: block;
+    }
+}
